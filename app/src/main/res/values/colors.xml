@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Colors -->
+    <color name="renk1">#b3e5fc</color>
+    <color name="renk2">#ffcdd2</color>
+    <color name="renk3">#c8e6c9</color>
+    <color name="renk4">#ffecb3</color>
+    <color name="renk5">#f8bbd0</color>
+
 </resources>
