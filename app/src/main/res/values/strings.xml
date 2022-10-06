@@ -2,4 +2,13 @@
     <string name="app_name">KotlinNavigation</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="anasayfa">Anasayfa</string>
+    <string name="git_x"><![CDATA[Git > X]]></string>
+    <string name="git_a"><![CDATA[Git > A]]></string>
+    <string name="sayfa_a">Sayfa A</string>
+    <string name="git_b"><![CDATA[Git > B]]></string>
+    <string name="sayfa_b">Sayfa B</string>
+    <string name="git_y"><![CDATA[Git > Y]]></string>
+    <string name="sayfa_x">Sayfa X</string>
+    <string name="sayfa_y">Sayfa Y</string>
 </resources>
