@@ -7,6 +7,10 @@ android {
     namespace 'com.serapercel.kotlinnavigation'
     compileSdk 32
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.serapercel.kotlinnavigation"
         minSdk 21
