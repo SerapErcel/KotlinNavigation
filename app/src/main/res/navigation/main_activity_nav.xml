@@ -13,8 +13,7 @@
         <action
             android:id="@+id/anasayfadanGitA"
             app:destination="@id/sayfaAFragment"
-            app:popUpTo="@id/anasayfaFragment"
-            app:popUpToInclusive="true" />
+            app:popUpToInclusive="false" />
         <action
             android:id="@+id/anasayfadanGitX"
             app:destination="@id/sayfaXFragment" />
@@ -27,8 +26,7 @@
         <action
             android:id="@+id/sayfaAGitB"
             app:destination="@id/sayfaBFragment"
-            app:popUpTo="@id/sayfaAFragment"
-            app:popUpToInclusive="true" />
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/sayfaBFragment"
@@ -38,8 +36,7 @@
         <action
             android:id="@+id/sayfaBGitY"
             app:destination="@id/sayfaYFragment"
-            app:popUpTo="@id/sayfaBFragment"
-            app:popUpToInclusive="true" />
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/sayfaXFragment"
@@ -49,12 +46,15 @@
         <action
             android:id="@+id/sayfaXGitY"
             app:destination="@id/sayfaYFragment"
-            app:popUpTo="@id/sayfaXFragment"
-            app:popUpToInclusive="true" />
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/sayfaYFragment"
         android:name="com.serapercel.kotlinnavigation.SayfaYFragment"
         android:label="fragment_sayfa_y"
-        tools:layout="@layout/fragment_sayfa_y" />
+        tools:layout="@layout/fragment_sayfa_y" >
+        <action
+            android:id="@+id/sayfaYGitAnasayfa"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
 </navigation>
